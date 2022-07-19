@@ -9,7 +9,7 @@ const Banner = () => {
   const toRotate = ["Junior Web Developer", "Problem Solver", "Junior Seo Specialist", "qui puoi trovare i miei progetti"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random()*100)
-  const [index, setIndex] = useState(1)
+  const [, setIndex] = useState(1)
   const time = 2000;
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const Banner = () => {
     return () => {
         clearInterval(ticker)
     }
-  }, [text])
+  },)
 
   const tick = () => {
     let i = loopNum % toRotate.length;
