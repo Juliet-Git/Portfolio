@@ -6,7 +6,7 @@ import headerImg from "../assets/img/header-img.svg";
 const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Junior Web Developer", "Problem Solver", "Junior Seo Specialist", "qui puoi trovare i miei progetti"];
+  const toRotate = ["Junior Web Developer", "Problem Solver", 'Junior Seo Specialist'];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random()*100)
   const [, setIndex] = useState(1)
@@ -58,13 +58,13 @@ const Banner = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline">Welcome to my Portfolio</span>
+            <span className="tagline">Ciao, io sono Juliet!</span>
             <h2>
-              {`Ciao, mi chiamo Juliet e sono una `}
+              {``}
               <span className="wrap">{text}</span>
             </h2>
             <p>
-              Attualmente vivo a Bergamo e sono aperta a nuove esperienze lavorative.
+              Sono una persona curiosa, determinata e sempre aperta a nuove esperienze.
             </p>
             <button onClick={sendEmail}>
               Mettiamoci in contatto <BsArrowRightCircle size={25} />

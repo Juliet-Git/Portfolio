@@ -70,7 +70,7 @@ const Projects = () => {
         <Container>
           <Row>
             <Col>
-              <h2>Projects</h2>
+              <h2>Progetti</h2>
               <p>
                 Ecco i miei ultimi progetti, puoi vedere anche le tecnologie e i linguaggi che utilizzo.
               </p>
@@ -84,10 +84,10 @@ const Projects = () => {
                     <Nav.Link eventKey="first">Web site</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="second">Languages</Nav.Link>
+                    <Nav.Link eventKey="second">Linguaggi</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="third">Technologies</Nav.Link>
+                    <Nav.Link eventKey="third">Tecnologie</Nav.Link>
                   </Nav.Item>
                 </Nav>
                 <Tab.Content id="slideInUp">
